@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  font-size: 62.5%;
+  --clr-primary: #02203c;
+  --clr-txt-f: white;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
